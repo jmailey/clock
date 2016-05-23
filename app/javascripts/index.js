@@ -1,6 +1,7 @@
 var ReactDom = require('react-dom');
 var React = require('react');
-import MyNavbar from './components/test.js';
+var Clock = require('./components/clock.js');
+var Animation = require('./play');
 
 
-ReactDom.render(<MyNavbar />, document.getElementById('container'));
+ReactDom.render(<Clock />, document.getElementById('container'));
