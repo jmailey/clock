@@ -1,8 +1,6 @@
 var React = require('react');
+
 var Clock = React.createClass({
-  propTypes: {
-    animation: React.PropTypes.func
-  },
   getInitialState: function() {
       return {
         interval: null,
